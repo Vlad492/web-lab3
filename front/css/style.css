@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-custom{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.cards .card{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 10px;
+}
+.contacts{
+    width: 90%;
+    border:2px solid silver;
+}
+.about{
+    width: 90%;
+    padding: 1%;
+    background: silver;
+    border: 2px solid grey;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 15px;
+}
+.profile{
+    width: 90%;
+    padding: 1%;
+    background: silver;
+    border: 2px solid grey;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+}
+.profile form{
+    padding: 15px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .profile{
+        flex-direction: row;
+    }
+    .profile img{
+        width: 40%;
+        max-width: 300px;
+    }
+    .profile form{
+        width:80%;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    .profile{
+        flex-direction: column;
+    }
+    .profile img{
+        width: 100%;
+    }
+    .profile form{
+        width: 100%;
+    }
+  }
+  .table td, .table th {
+    padding: .75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
